@@ -24,6 +24,7 @@ public class ArrayListConcept {
 		
 		ar.remove(3);
 		
+		
 		System.out.println(ar.size());
 		
 		ar.add("Tom");
