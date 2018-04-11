@@ -24,6 +24,7 @@ public class ParameterizeTest {
 		int rowCount = reader.getRowCount("RegTestData");
 		
 		reader.addColumn("RegTestData", "Status");
+	
 		
 		//Parameterization:
 		for(int rowNum = 2; rowNum<=rowCount; rowNum++){

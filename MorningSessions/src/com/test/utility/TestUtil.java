@@ -30,6 +30,7 @@ public class TestUtil {
 					String emailAddress = reader.getCellData("RegTestData", "emailaddress", rowNum);
 
 					Object ob[] = {firstName, lastName, address1, address2, city, state, zipCode, emailAddress};
+					
 					myData.add(ob);
 					
 			}

@@ -62,7 +62,6 @@ public class DataDrivenTest {
 		driver.findElement(By.xpath("//*[@id='email']")).sendKeys(emailAddress);
 		driver.findElement(By.xpath("//*[@id='retype_email']")).sendKeys(emailAddress);
 
-		
 
 	}
 
