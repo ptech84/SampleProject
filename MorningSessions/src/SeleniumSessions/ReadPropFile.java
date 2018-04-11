@@ -26,6 +26,7 @@ Properties prop = new Properties();
 		prop.load(ip);
 		
 		
+		
 	
 		System.out.println(prop.getProperty("name"));
 

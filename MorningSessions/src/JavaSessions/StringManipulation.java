@@ -15,19 +15,20 @@ public class StringManipulation {
 		System.out.println(s.indexOf('s')); //1st occurrence of s
 		
 		System.out.println(s.indexOf('s', 9)); //2nd occurrence of s
+		System.out.println(s.indexOf('s', 6));
 		
 		System.out.println(s.indexOf("have"));
 		
-		System.out.println(s.indexOf("hello"));
+		System.out.println("indexOf" + s.indexOf("hello"));
 		
-		System.out.println(s.equals(s1));
+		System.out.println("equals" + s.equals(s1));
 		
 		System.out.println(s.equalsIgnoreCase(s1));
 		
 		System.out.println(s.toUpperCase());
 		
 		//sub string:
-		System.out.println(s.substring(0, 9));
+		System.out.println("substring********" + s.substring(0,15));
 		
 		//trim:
 		String t = "     Hello World    ";

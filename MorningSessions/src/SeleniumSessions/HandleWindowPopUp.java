@@ -44,6 +44,7 @@ public class HandleWindowPopUp {
 		driver.close();
 		
 		driver.switchTo().window(parentWindowId);
+
 		
 		Thread.sleep(2000);
 		

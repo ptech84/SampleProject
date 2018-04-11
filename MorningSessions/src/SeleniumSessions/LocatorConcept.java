@@ -46,7 +46,7 @@ public class LocatorConcept {
 		//if id is there--- #{id}
 		//if class is there --- .{class}
 		driver.findElement(By.cssSelector("#address1")).sendKeys("12 new strt");
-		
+
 		//7. class name: not useful  --4
 		driver.findElement(By.className("ancAsb")).click();
 		

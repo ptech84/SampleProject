@@ -28,6 +28,7 @@ public class HtmlUnitDriverConcept {
 		
 		
 		WebDriver driver = new HtmlUnitDriver();
+
 		
 		driver.manage().window().maximize(); //maximize window
 		driver.manage().deleteAllCookies(); //delete all the cookies

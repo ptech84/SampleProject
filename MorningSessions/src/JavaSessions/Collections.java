@@ -39,6 +39,7 @@ public class Collections {
 	linkedList.add("Dad");
 	linkedList.addFirst("Virat");
 	linkedList.addLast("Mom");
+	linkedList.add("Praveen");
 	for(Object l:linkedList){
 	 System.out.println("********************LinkedList********************" + " " + l);
 	}
@@ -60,6 +61,7 @@ public class Collections {
 	hash.add("hash1");
 	hash.add("hash2");
 	hash.add("hash3");
+	hash.add("hash1");
 	Iterator it3 = hash.iterator();
 	while(it3.hasNext()){
 		System.out.println("********************hashSet********************" + " " + it3.next());
@@ -89,7 +91,7 @@ public class Collections {
 	Map<Integer,String> map = new HashMap<Integer,String>();
 	map.put(100, "Praveen");
 	map.put(101, "chaitra");
-	map.put(102, "chaitra");
+	map.put(101, "chaitra");
 	
 	for(Map.Entry m:map.entrySet()){
 		System.out.println(m.getKey() + " " + m.getValue());
@@ -120,7 +122,7 @@ public class Collections {
 	// TreeMap
 		// HashSet
 		TreeMap<Integer,String> TreeMap = new TreeMap<>();
-		TreeMap.put(101, null);
+		TreeMap.put(103, "Test3");
 		TreeMap.put(102, "Test2");
 		TreeMap.put(103, "Test3");
 		System.out.println("***********FirstKey*********" + " " + TreeMap.firstKey());
